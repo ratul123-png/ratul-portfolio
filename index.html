@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>MD Sadman Sakib Ratul — Portfolio</title>
+<title>MD Sadman Sakib Ratul â€” Portfolio</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap">
 <style>
 @property --a{syntax:"<angle>";inherits:false;initial-value:0deg}
@@ -67,7 +67,7 @@ nav a:hover,nav a.on{color:#fff;background:rgba(255,255,255,.09)}
 .mq div{display:flex;gap:40px;width:max-content;font-size:22px;font-weight:600;letter-spacing:-.02em;color:#c6cad3;animation:mq 30s linear infinite}
 .mq div+div{animation-direction:reverse;color:var(--dim);animation-duration:38s}
 .mq:hover div{animation-play-state:paused}
-.mq span::after{content:"✦";margin-left:40px;color:var(--ac)}
+.mq span::after{content:"âœ¦";margin-left:40px;color:var(--ac)}
 @keyframes mq{to{translate:-50% 0}}
 /* sections */
 section{padding:96px 0 10px}
@@ -112,7 +112,7 @@ h2::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:0;border
 @keyframes flow{to{background-position:200% 0}}
 .certs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:0 40px}
 .certs div{display:flex;align-items:center;gap:14px;padding:15px 0;border-bottom:1px solid var(--ln);font-size:16.5px}
-.certs div::before{content:"✓";flex:none;display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:rgba(139,140,255,.16);color:var(--ac);font-size:12px}
+.certs div::before{content:"âœ“";flex:none;display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:rgba(139,140,255,.16);color:var(--ac);font-size:12px}
 .cta{text-align:center;padding:84px 24px;margin-top:20px;background:linear-gradient(120deg,rgba(139,140,255,.14),rgba(77,225,255,.08),rgba(139,140,255,.14));background-size:250%;animation:flow 10s linear infinite}
 .cta h2{font-size:clamp(36px,6vw,72px);padding:0;margin-bottom:18px}.cta h2::after{display:none}
 .cta p{max-width:46ch;margin:0 auto 30px;font-size:18px}
@@ -121,17 +121,19 @@ h2::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:0;border
 footer{text-align:center;color:var(--dim);font-size:14.5px;padding:60px 5vw calc(40px + env(safe-area-inset-bottom,0px))}
 @media(max-width:860px){.hero{grid-template-columns:1fr;text-align:center;padding-top:130px}.hero .lead{margin-inline:auto}.btns{justify-content:center}.pw{order:-1;margin-bottom:60px}.bento{grid-template-columns:1fr}.ph{grid-row:auto;min-height:380px}.wide{grid-column:auto}.hero h1{font-size:clamp(36px,10vw,64px)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.rv,[data-st]>*{opacity:1;translate:0 0;scale:1;filter:none}.track i{width:var(--w)}h2::after{width:64px}}
-</style>
+
+.portfolio-switch{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:9px 15px;border:1px solid rgba(255,91,101,.55);border-radius:999px;background:rgba(18,18,22,.88);color:#fff;text-decoration:none;font:600 11px/1.2 inherit;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;backdrop-filter:blur(14px);transition:transform .2s,border-color .2s}.portfolio-switch:hover{transform:translateY(-2px);border-color:#ff5b65;color:#ff8b91}@media(max-width:600px){.portfolio-switch{padding:8px 10px;font-size:9px}}</style>
 </head>
 <body>
 <canvas id="net" aria-hidden="true"></canvas><div id="prog"></div><div class="cur" id="cur" aria-hidden="true"></div>
 <nav aria-label="Main"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a></nav>
+<a class="portfolio-switch" href="https://ratul123-png.github.io/ratul-portfolio-red/" target="_blank" rel="noopener noreferrer" aria-label="Open Red Version">↗ Red Version</a>
 
 <main>
 <div class="wrap hero">
   <div>
     <div class="st up" style="--d:.1s"><i></i>Open to learning opportunities</div>
-    <div class="hi up" style="--d:.2s">Hi, I’m</div>
+    <div class="hi up" style="--d:.2s">Hi, Iâ€™m</div>
     <h1 class="g" id="name" aria-label="MD Sadman Sakib Ratul">MD Sadman Sakib Ratul</h1>
     <div class="role" id="role" aria-live="off"></div>
     <p class="lead up" style="--d:1.3s">Aspiring Computer Science professional building with code, data and curiosity.</p>
@@ -154,7 +156,7 @@ footer{text-align:center;color:var(--dim);font-size:14.5px;padding:60px 5vw calc
   <div class="head rv"><h2 class="g" data-sc>About</h2><p class="sub">A self-driven learner from Bangladesh.</p></div>
   <div class="bento">
     <div class="card ph sp rv" data-r="l"><div><b>MD Sadman Sakib Ratul</b><span>Bangladesh</span></div></div>
-    <div class="card wide about sp rv" data-r="r" style="--d:.1s"><p>I’m interested in software development, artificial intelligence, machine learning and data analysis. I build independent Python projects and explore how technology can solve real-world problems.</p><p>My goal is to study Computer Science at a higher level and help reduce the technology gap in Bangladesh.</p></div>
+    <div class="card wide about sp rv" data-r="r" style="--d:.1s"><p>Iâ€™m interested in software development, artificial intelligence, machine learning and data analysis. I build independent Python projects and explore how technology can solve real-world problems.</p><p>My goal is to study Computer Science at a higher level and help reduce the technology gap in Bangladesh.</p></div>
     <div class="wide stats">
       <div class="card stat sp rv" data-r="z"><b data-n="3">0</b><span>Projects</span></div>
       <div class="card stat sp rv" data-r="z" style="--d:.12s"><b data-n="8">0</b><span>Certificates and awards</span></div>
@@ -174,7 +176,7 @@ footer{text-align:center;color:var(--dim);font-size:14.5px;padding:60px 5vw calc
 </section>
 
 <section id="projects">
-  <div class="head rv"><h2 class="g" data-sc>Projects</h2><p class="sub">Independent work built to learn and to help people. <a class="more" href="https://github.com/ratul123-png" target="_blank" rel="noopener">More on GitHub ↗</a></p></div>
+  <div class="head rv"><h2 class="g" data-sc>Projects</h2><p class="sub">Independent work built to learn and to help people. <a class="more" href="https://github.com/ratul123-png" target="_blank" rel="noopener">More on GitHub â†—</a></p></div>
   <div class="grid p">
     <article class="card sp rv" data-r="l"><h3>Scholarship Finder and Eligibility Checker</h3><p>A Python app that helps students find international scholarships that fit them.</p><ul data-st><li>Checks SSC and HSC GPA</li><li>Compares English level, field and country</li><li>Gives a match score from 0 to 100</li></ul><div class="pills" data-st><span>Python</span><span>JSON</span><span>pytest</span></div></article>
     <article class="card sp rv" data-r="z" style="--d:.12s"><h3>CampusX</h3><p>A student communication app in progress, built for collaboration and messaging.</p><ul data-st><li>Real-time messaging and replies</li><li>Emoji, GIFs, stickers and voice messages</li><li>Edit, delete, forward and react</li></ul><div class="pills" data-st><span>JavaScript</span><span>Mobile app</span></div></article>
@@ -185,8 +187,8 @@ footer{text-align:center;color:var(--dim);font-size:14.5px;padding:60px 5vw calc
 <section id="education">
   <div class="head rv"><h2 class="g" data-sc>Education</h2><p class="sub">Science background, TMSS Public School and College.</p></div>
   <div class="grid">
-    <div class="card sp rv" data-r="l"><h3>SSC, Science · 2021</h3><div class="gpa"><b data-n="5" data-d="2">0</b><span>/ 5.00 GPA</span></div><div class="track"><i data-w="100" style="--w:100%"></i></div><p>Perfect score in the Secondary School Certificate.</p></div>
-    <div class="card sp rv" data-r="r" style="--d:.12s"><h3>HSC, Science · 2023</h3><div class="gpa"><b data-n="4.58" data-d="2">0</b><span>/ 5.00 GPA</span></div><div class="track"><i data-w="91.6" style="--w:91.6%"></i></div><p>Higher Secondary Certificate in Science.</p></div>
+    <div class="card sp rv" data-r="l"><h3>SSC, Science Â· 2021</h3><div class="gpa"><b data-n="5" data-d="2">0</b><span>/ 5.00 GPA</span></div><div class="track"><i data-w="100" style="--w:100%"></i></div><p>Perfect score in the Secondary School Certificate.</p></div>
+    <div class="card sp rv" data-r="r" style="--d:.12s"><h3>HSC, Science Â· 2023</h3><div class="gpa"><b data-n="4.58" data-d="2">0</b><span>/ 5.00 GPA</span></div><div class="track"><i data-w="91.6" style="--w:91.6%"></i></div><p>Higher Secondary Certificate in Science.</p></div>
   </div>
 </section>
 
@@ -207,15 +209,15 @@ footer{text-align:center;color:var(--dim);font-size:14.5px;padding:60px 5vw calc
 
 <section id="contact">
   <div class="card cta sp rv" data-r="z">
-    <h2 class="g" data-sc>Let’s talk.</h2>
-    <p>I’m open to learning opportunities, collaborations and new projects.</p>
+    <h2 class="g" data-sc>Letâ€™s talk.</h2>
+    <p>Iâ€™m open to learning opportunities, collaborations and new projects.</p>
     <a class="mail" href="mailto:isompod1@gmail.com">isompod1@gmail.com</a>
     <div class="btns"><a class="btn w2 mag" href="https://github.com/ratul123-png" target="_blank" rel="noopener">GitHub</a><a class="btn mag" href="https://www.linkedin.com/in/md-sadman-sakib-ratul-364213253/" target="_blank" rel="noopener">LinkedIn</a></div>
   </div>
 </section>
 </div>
 </main>
-<footer>© 2026 MD Sadman Sakib Ratul. All rights reserved.</footer>
+<footer>Â© 2026 MD Sadman Sakib Ratul. All rights reserved.</footer>
 
 <script>
 (function(){
@@ -307,3 +309,4 @@ footer{text-align:center;color:var(--dim);font-size:14.5px;padding:60px 5vw calc
 </script>
 </body>
 </html>
+
